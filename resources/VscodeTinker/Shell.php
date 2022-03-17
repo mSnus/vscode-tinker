@@ -39,7 +39,7 @@ class Shell extends BaseShell
      * @param mixed $val
      * @return string
      */
-    protected function presentValue($val)
+    protected function presentValue($val):string
     {
         $this->bus->dump($val);
 
